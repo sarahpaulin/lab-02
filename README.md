@@ -14,7 +14,7 @@ public class CubeScript : MonoBehaviour {
 	void Start () {
 		spinSpeed = new Vector3 (Random.value, Random.value, Random.value);
 		spinAxis = Vector3.up;
-		spinAxis.x = (Random.value - Random.value) * .1f;
+		spinAxis.x = (Random.value - Random.value) * 1.0f;
 	}
 
 	public void SetSize(float size)
